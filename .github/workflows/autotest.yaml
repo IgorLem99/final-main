@@ -56,8 +56,8 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t yourusername/yourimage:${{ github.ref_name }} .
+          docker build -t igorlemov/final-main:${{ github.ref_name }} .
         
       - name: Push Docker image
         run: |
-          docker push yourusername/yourimage:${{ github.ref_name }}
+          docker push igorlemov/final-main:${{ github.ref_name }}
