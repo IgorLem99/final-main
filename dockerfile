@@ -1,5 +1,5 @@
 # use multi- stage build 
-FROM golang:1.21 AS builder
+FROM golang:1.22.5 AS builder
 
 
 WORKDIR /app
