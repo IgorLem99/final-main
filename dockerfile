@@ -10,7 +10,7 @@ RUN go mod download
 
 COPY . .
 # name tracker
-RUN go build -o tracker main.go
+RUN go build -o tracker ./...
 
 
 # 2 use light image debian
